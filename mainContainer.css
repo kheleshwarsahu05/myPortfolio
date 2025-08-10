@@ -1,0 +1,132 @@
+#heroTxt{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#name #hi{
+    font-size: 40px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#name #myName{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    margin-bottom: 5px;
+    margin-top: 12px;
+}
+h2 #JFD{
+    font-size: 40PX;
+    color: rgb(255, 218, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 #developer{
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#paraTxt{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#heroButtonContainer{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#heroButtonContainer button{
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#heroButtonContainer button:nth-child(1){
+    background-color: #ffda09;
+}
+#oneLiner{
+    font-size: 20px;
+    text-decoration:underline;
+}
+#mainIconsDiv{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 130px;
+    /* opacity: 0.7; */
+    /* background-color: #1b1b23; */
+
+}
+
+#iconsDiv{
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    height: 65px;
+    /* border: 1px solid white; */
+    gap: 20px;
+}
+.iconDiv{
+    width: 60px;
+    background-color: black;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconDiv img{
+    width: 40px;
+}
+#letterDiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 35px;
+    width: inherit;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.iconDiv:hover{
+    background-color: rgb(253, 174, 4);
+    cursor: pointer;
+}
+#letterDiv span:nth-child(1){
+    color: rgb(89, 89, 255);
+    text-shadow: 0px 0px 10px rgb(58, 58, 58);
+}
+#letterDiv span:nth-child(2){
+    color: rgb(30, 246, 30);
+}
+#letterDiv span:nth-child(3){
+    color: red;
+}
+#letterDiv span:nth-child(4){
+    color: aqua;
+}
+
+#profileImgYellow{
+    width: 18vw;
+    height: 40vh;
+    /* border: 5px solid white; */
+    overflow: hidden;
+}
+#profileImgYellow img{
+    width: 280px;
+    height: 280px;
+    margin-left: -12px;
+    margin-top: -10px;
+}

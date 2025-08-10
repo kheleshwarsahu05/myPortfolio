@@ -1,0 +1,135 @@
+#aboutUsContainer{
+    margin-top: 20px;
+    width: inherit;
+    height: auto;
+    border-top: 1px solid rgb(123, 123, 123);
+    border-bottom: 1px solid rgb(123, 123, 123);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#about-logo-break img{
+    width: 20px;
+}
+#about-logo-break{
+    width: 101px;
+    display: flex;
+    justify-content: space-between;
+}
+#aboutBoxContainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#aboutTxtBox {
+    grid-column: 1 / -1; /* Make it span across both columns */
+}
+#aboutTxtBox{
+    width: 42vw;
+    color: white;
+    height: 30vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#aboutTxtBox h3{
+    font-size: 1.8vw;
+    margin-bottom: 5px;
+}
+#educationBox{
+    width: 20vw;
+    border: 1px solid white;
+    height: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#languageBox{
+    width: 20vw;
+    border: 1px solid white ;
+    height: 16vh;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#hobbiesBox{
+    width: 20vw;
+    border: 1px solid white ;
+    height: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#contactInfoBox{
+    width: 20vw;
+    border: 1px solid white ;
+    height: 20vh;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#aboutBoxContainer #educationBox:hover{
+    transition: 1s ease;
+    border: 1px solid yellow;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+#aboutBoxContainer #languageBox:hover{
+    transition: 1s ease;
+    border: 1px solid yellow;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+#aboutBoxContainer #hobbiesBox:hover{
+    transition: 1s ease;
+    border: 1px solid yellow;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+#aboutBoxContainer #contactInfoBox:hover{
+    transition: 1s ease;
+    border: 1px solid yellow;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+#aboutTxtBox h3{
+    margin-bottom: 10px;
+}
+#educationBox h3{
+    font-size: 1.5vw;
+}
+.eBox h3{
+    margin-top: 5px;
+    font-size: 15px;
+    opacity: 0.6;
+    margin-bottom: 5px;
+}
+.eBox p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#languageBox h3{
+    font-size: 1.5vw;
+}
+.lBox p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hBox{
+    margin-top: 5px;
+}
+.cBox p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.cBox span{
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.;
+}
