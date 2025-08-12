@@ -1,0 +1,142 @@
+#skillsContainer{
+    padding: 10px;
+    height: auto;
+    width: inherit;
+    /* border: 1px solid white; */
+    margin-top: 40px;
+    color: white;
+}
+
+#skills-logo-break{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+#skills-logo-break img{
+    width: 20px;
+}
+#skillsContainer h2{
+    font-size: 2.6vw;
+    font-weight: 800;
+}
+#skillsContainer h2 span{
+    color: yellow;
+}
+
+/* Skills Group Container */
+#skillsGroupContainer{
+    width: inherit;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+}
+#skillsGroupContainer span{
+    margin-left: 25px;
+    font-size: 15px; 
+
+}
+/* Technical Skills Container */
+#technicalOuter{
+    width: 50%; 
+    margin-bottom: 10px;
+}
+#technicalSkillsContainer{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#frontEndContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#frontEndContainer span{
+    margin-left: 0px;
+}
+.skillBox{
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.backEndSpan{
+    margin-top: 50px;
+}
+#backEndContainer{
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+}
+#dataBaseContainer{
+    padding: 25px;
+    display: flex;
+    gap: 20px;
+}
+#skillOuter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#skillOuter span{
+    margin-left: 0px;
+}
+.skillBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.skillBox img{
+    width: 4.0vw;
+}
+
+/* Soft Skills */
+#softOuter{
+    width: 40%; 
+}
+#softSkillsContainer{
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.softskills{
+    width: 100%;
+}
+.softskills progress{
+    width: 100%;
+}
+progress::-webkit-progress-value{
+    background-color: #ff5733;
+}
+
+/* Tolls Container */
+#toolsContainer{
+    width: 100;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
