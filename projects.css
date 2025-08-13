@@ -7,7 +7,7 @@
     color: white;
 }
 #projectsContainer h2{
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 #projectsContainer h2 span{
     color: yellow;
@@ -18,6 +18,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+}
+#projectsOuter h4{
+    margin-top: 8px;
+    font-family: emoji;
 }
 #projectOneOuter{
     width: 100%;
@@ -30,6 +34,7 @@
 }
 #projectTwoOuter{
     width: 45%;
+    border-radius: 7px;
 }
 .projectTwo{
     border: 1px solid white;
@@ -54,21 +59,42 @@
     overflow-x: scroll;
     display: flex;
     gap: 40px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 7px;
 }
 .insideSlider{
     width: 20vw;
     height: 100%;
-    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 7px;
 }
 .project1{
+    border: 1px solid #ffffff;
     width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+}.project2{
+    border: 1px solid #ffffff;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+}.project3{
+    border: 1px solid #ffffff;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+}.project4{
+    border: 1px solid #ffffff;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
 }
-.project2{
-    width: inherit;
-}
-.project3{
-    width: inherit;
-}
-.project4{
-    width: inherit;
+.projectImg {
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+    border-radius: 7px;
 }

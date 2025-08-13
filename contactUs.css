@@ -1,0 +1,84 @@
+#contactUsContainer{
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+#contactUs-logo-break{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+}
+#contactUs-logo-break img{
+    width: 2vw;
+}
+#contactUsContainer h2{
+    font-size: 3vw;
+}
+#contactUsContainer h2 span{
+    color: yellow;
+}
+#formContainer{
+    width: inherit;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.labelAligner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+}
+#formContainer input {
+    width: 94%;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: #00000087;
+    border: 1px solid #8c8c8c;
+    color: white;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.labelAligner label{
+    margin-bottom: 5px;
+}
+#textAreaContainer{
+    padding-left: 25px;
+    width: 100%;
+}
+#textAreaContainer textarea{
+    width: 95%;
+    height: 20vh;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    background-color: #00000087;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#sendContainer{
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sendContainer button{
+    padding: 10px 50px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size: 1vw;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}

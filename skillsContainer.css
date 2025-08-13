@@ -16,7 +16,7 @@
     width: 20px;
 }
 #skillsContainer h2{
-    font-size: 2.6vw;
+    font-size: 3vw;
     font-weight: 800;
 }
 #skillsContainer h2 span{
@@ -31,8 +31,7 @@
     gap: 30px;
     box-sizing: border-box;
 }
-#skillsGroupContainer span{
-    margin-left: 25px;
+#skillsGroupContainer .frontBackDb{
     font-size: 15px; 
 
 }
@@ -40,6 +39,9 @@
 #technicalOuter{
     width: 50%; 
     margin-bottom: 10px;
+}
+#technicalOuter h3 img{
+    width: 1.5vw;
 }
 #technicalSkillsContainer{
     width: 100%;
@@ -52,6 +54,18 @@
     margin-top: 10px;
     padding-top: 10px;
 }
+#technicalSkillsContainer h3 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#technicalSkill{
+    margin-left: 0px;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+}
 #frontEndContainer{
     display: flex;
     justify-content: center;
@@ -59,7 +73,7 @@
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #frontEndContainer span{
     margin-left: 0px;
@@ -78,11 +92,13 @@
     display: flex;
     gap: 20px;
     padding: 25px;
+    padding-top: 10px;
 }
 #dataBaseContainer{
     padding: 25px;
     display: flex;
     gap: 20px;
+    padding-top: 10px;
 }
 #skillOuter {
     display: flex;
@@ -139,4 +155,5 @@ progress::-webkit-progress-value{
     height: auto;
     border: 1px solid white;
     border-radius: 10px;
+    margin-top: 5px;
 }

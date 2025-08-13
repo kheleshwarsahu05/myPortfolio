@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="AboutUs.css">
     <link rel="stylesheet" href="skillsContainer.css">
     <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contactUs.css">
 </head>
 <body id="body">
     <header>
@@ -41,6 +42,11 @@
     </header>
 
     <main>
+    <a href="#">
+        <div id="goTopButton">
+            <img src="assets/top-arrow.png" alt="">
+        </div>
+    </a>
     <!-- <div id="homePage"> -->
     <div id="leftContainer">
             <div id="navigationLinks">
@@ -67,7 +73,7 @@
 
                     <div class="secondary">
                             <span class="navTxt">
-                                Home
+                                About
                             </span>
                     </div>
                 </div>
@@ -80,62 +86,66 @@
 
                     <div class="secondary">
                             <span class="navTxt">
-                                Home
+                                Skills
+                            </span>
+                    </div>
+                </div>
+                <div class="navlinks ">
+                    <a id="navAncer" href="#projectsContainer">
+                        <div class="navImgContainer">
+                            <img src="assets/projects-skill.png" alt="">
+                        </div>
+                    </a>
+
+                    <div class="secondary">
+                            <span class="navTxt">
+                                Projects
+                            </span>
+                    </div>
+                </div>
+                
+
+                <div class="navlinks ">
+                    <a id="navAncer" href="dff">
+                        <div class="navImgContainer">
+                            <img src="assets/portfolio-skill.png" alt="">
+                        </div>
+                    </a>
+
+                    <div class="secondary">
+                            <span class="navTxt">
+                                Portfolio
                             </span>
                     </div>
                 </div>
                 <div class="navlinks ">
                     <a id="navAncer" href="dff">
                         <div class="navImgContainer">
-                            <img src="assets/home-img.png" alt="">
+                            <img src="assets/learning-journey-skill.png" alt="">
                         </div>
                     </a>
 
                     <div class="secondary">
                             <span class="navTxt">
-                                Home
+                                Journey
                             </span>
                     </div>
                 </div>
                 <div class="navlinks ">
-                    <a id="navAncer" href="dff">
+                    <a id="navAncer" href="#contactUsContainer">
                         <div class="navImgContainer">
-                            <img src="assets/home-img.png" alt="">
+                            <img src="assets/contact-skill.png" alt="">
                         </div>
                     </a>
 
                     <div class="secondary">
                             <span class="navTxt">
-                                Home
+                                Contact
                             </span>
                     </div>
                 </div>
-                <div class="navlinks ">
-                    <a id="navAncer" href="dff">
-                        <div class="navImgContainer">
-                            <img src="assets/home-img.png" alt="">
-                        </div>
-                    </a>
-
-                    <div class="secondary">
-                            <span class="navTxt">
-                                Home
-                            </span>
-                    </div>
-                </div>
-                <div class="navlinks ">
-                    <a id="navAncer" href="dff">
-                        <div class="navImgContainer">
-                            <img src="assets/home-img.png" alt="">
-                        </div>
-                    </a>
-
-                    <div class="secondary">
-                            <span class="navTxt">
-                                Home
-                            </span>
-                    </div>
-                </div>
+                
+                
 
                 
                     
@@ -143,7 +153,7 @@
 
             <div id="profileContainer">
                 <div id="profileImgYellow">
-                    <img src="assets/profile.png" alt="">
+                    <img src="assets/fire.png" alt="">
                 </div>
             <h2 id="profileBottomTxt">Kheleshwar Sahu</h2>
            
@@ -206,11 +216,14 @@
                     I’m a passionate learner who loves turning ideas into real-world solutions through code. With a strong foundation in Java, Spring Boot, and React, I enjoy building web applications that are clean, responsive, and user-friendly. I'm always curious to learn new technologies and take on challenges that help me grow as a developer.
                 </P>
                 <div id="heroButtonContainer">
-                    <button>My Projects</button>
-
-                    <button>
-                        Contact Me
-                    </button>
+                    <a href="#projectsContainer">
+                        <button>My Projects</button>
+                    </a>
+                    <a id="" href="#contactUsContainer">
+                        <button>
+                            Contact Me
+                        </button>
+                    </a>
                 </div>
                 <p id="oneLiner">Turning ideas into powerful digital solutions.</p>
             </div>
@@ -221,13 +234,13 @@
                         <img src="assets/java.png" alt="">
                     </div>
                     <div class="iconDiv">
-                        <img src="assets/spring boot.png" alt="">
+                        <img src="assets/spring-skill.png" alt="">
                     </div>
                     <div class="iconDiv">
                         <img src="assets/oracle-project-management-software.png" alt="">
                     </div>
                     <div class="iconDiv">
-                        <img src="assets/React-icon.svg.png" alt="">
+                        <img src="assets/react-skill.png" alt="">
                     </div>
                 </div>
 
@@ -246,22 +259,25 @@
 
         <section id="aboutUsContainer">
             <div id="about-logo-break">
-                <img src="assets/about-us.png" alt="">
+                <img src="assets/about-us - Copy.png" alt="">
                 <h3>
                     About Us
                 </h3>
             </div>
+            <h2 id="aboutOneLiner">
+                The Person Behind The <span>Portfolio</span>
+            </h2>
             <div id="aboutBoxContainer">
                 <div id="aboutTxtBox">
                     <h3>Kheleshwar Sahu</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem corrupti corporis ab maxime, facilis quasi repudiandae, autem, quisquam aliquam perferendis perspiciatis inventore quaerat minima quis aut consequuntur saepe iste esse voluptas.</p>
                 </div>
-
-
+                
+                
                 <div id="educationBox">
-                    <h3>Education</h3>
+                    <h3 id="educationImg"> <img src="assets/education-about.png" alt=""> Education</h3>
                     <div class="eBox">
-                        <h3>2022-2026</h3>
+                        <h3 id="educationYear">2022-2026</h3>
                         <p>
                             Bachelor of Computer Applications (BCA)
                         </p>
@@ -271,13 +287,18 @@
                     </div>
                 </div>
                 <div id="hobbiesBox">
-                    <h3>Hobbies</h3>
+                    <h3 id="hobbiesImg"> <img src="assets/hobbis-about.png" alt="">
+                    Hobbies</h3>
                     <div class="hBox">
-                        I enjoy exploring new technologies, building interactive web projects, and refining user-friendly designs. When I’m not coding, I relax by playing strategy games, which keep my problem-solving skills sharp.
+                        <p>
+                            I enjoy exploring new technologies, building interactive web projects, and refining user-friendly designs. When I’m not coding, I relax by playing strategy games, which keep my problem-solving skills sharp.
+                        </p>
                     </div>
                 </div>
+
                 <div id="contactInfoBox">
-                    <h3>Contact Info</h3>
+                    <h3 id="contactInfoImg"> <img src="assets/contact-info-about.png" alt="">
+                    Contact Info</h3>
                     <div class="cBox">
                         <p>Email: <span>Kheleshwar.dev@gmail.com</span></p>
                         <p>Phone: <span>7772801185</span></p>
@@ -285,7 +306,8 @@
                     </div>
                 </div>
                 <div id="languageBox">
-                    <h3>Language</h3>
+                    <h3 id="languageImg"> <img src="assets/language-about.png" alt="">
+                    Language</h3>
                     <div class="lBox">
                         <p>Hindi</p>
                         <p>English</p>
@@ -297,7 +319,7 @@
         
         <section id="skillsContainer">
              <div id="skills-logo-break">
-                <img src="assets/skills-section.png" alt="">
+                <img src="assets/skills-section - Copy.png" alt="">
                 <h3>
                     Skills
                 </h3>
@@ -310,9 +332,10 @@
 
             <div id="skillsGroupContainer">
                 <div id="technicalOuter">
-                    <span>Technical Skills</span>
+                    <span id="technicalSkill">Technical Skills</span>
                     <div id="technicalSkillsContainer">
-                    <span>Frond-End</span>
+
+                    <h3><img src="assets/front-end-skill.png" alt=""><span class="frontBackDb">Frond-End</span></h3>
                     <div id="frontEndContainer">
 
                         <div id="skillOuter">
@@ -362,7 +385,8 @@
                         
                     </div>
                     
-                    <span class="backEndSpan">Back-End</span>
+                    <h3><img src="assets/back-end-skill.png" alt="">
+                    <span class="frontBackDb">Back-End</span></h3>
                     <div id="backEndContainer">
                         <div id="skillOuter">
                             <div class="skillBox">
@@ -374,14 +398,14 @@
 
                         <div id="skillOuter">
                             <div class="skillBox">
-                                <img src="assets/spring boot.png" alt="">
+                                <img src="assets/spring-skill.png" alt="">
                                 
                             </div>
                             <span>Spring Boot</span>
                         </div>
                     </div>
                     
-                    <span>Database</span>
+                    <h3><img src="assets/database-skill.png" alt=""><span class="frontBackDb">Data Base</span></h3>
                     <div id="dataBaseContainer">
                         <div id="skillOuter">
                             <div class="skillBox">
@@ -396,7 +420,7 @@
                 </div>
 
                 <div id="softOuter">
-                    <span>Soft Skills</span>
+                    <span id="technicalSkill">Soft Skills</span>
                     <div id="softSkillsContainer">
                         <div class="softskills">
                             <h4>Problem Solving</h4>
@@ -416,7 +440,7 @@
                         </div>
                     </div>
 
-                    <span>Tools</span>
+                    <span id="technicalSkill">Tools</span>
                     <div id="toolsContainer">
                         <div id="backEndContainer">
                         <div id="skillOuter">
@@ -444,7 +468,7 @@
         <section id="projectsContainer">
 
             <div id="skills-logo-break">
-                <img src="assets/skills-section.png" alt="">
+                <img src="assets/skills-section - Copy.png" alt="">
                 <h3>
                     Projects
                 </h3>
@@ -458,21 +482,21 @@
 
                 <div id="projectOneOuter">
                     <div class="projectOne">
-                        <img src="" alt="">
+                        <img class="projectImg" src="assets/projectOne.png" alt="">
                     </div>
                     <h4>Api - Real Time Weather Forcasting</h4>
                 </div>
 
                 <div id="projectTwoOuter">
                     <div class="projectTwo">
-                        <img src="" alt="">
+                        <img class="projectImg" src="assets/projectOne.png" alt="">
                     </div>
                     <h4>Api - Real Time Weather Forcasting</h4>
                 </div>
 
                 <div id="projectThreeOuter">
                     <div class="projectTwo">
-                        <img src="" alt="">
+                        <img class="projectImg" src="assets/projectOne.png" alt="">
                     </div>
                     <h4>Api - Real Time Weather Forcasting</h4>
                 </div>
@@ -481,36 +505,78 @@
             <div id="projectsSlider">
                 <div class="insideSlider">
                     <div class="project1">
-                        <img src="" alt="">
+                        <img class="projectImg" src="assets/projectOne.png" alt="">
                     </div>
                     <h4>Api - Real Time Weather Forcasting</h4>
                 </div>
 
                 <div class="insideSlider">
                     <div class="project2">
-                        <img src="" alt="">
+                        <img class="projectImg" src="assets/projectOne.png" alt="">
                     </div>
                     <h4>Api - Real Time Weather Forcasting</h4>
                 </div>
 
                 <div class="insideSlider">
                     <div class="project3">
-                        <img src="" alt="">
+                        <img class="projectImg" src="assets/projectOne.png" alt="">
                     </div>
                     <h4>Api - Real Time Weather Forcasting</h4>
                 </div>
 
                 <div class="insideSlider">
                     <div class="project4">
-                        <img src="" alt="">
+                        <img class="projectImg" src="assets/projectOne.png" alt="">
                     </div>
                     <h4>Api - Real Time Weather Forcasting</h4>
                 </div>
             </div>
         </section>
 
+        <section id="portfolioContainer">
+        </section>
+
         <section id="contactUsContainer">
-            
+             <div id="contactUs-logo-break">
+                <img src="assets/skills-section - Copy.png" alt="">
+                <h3>
+                    Contact
+                </h3>
+            </div>
+            <h2>
+                Let's Get in <span>Touch</span>
+            </h2>
+
+            <div id="formContainer">
+                <div class="labelAligner">
+                    <label for="">Full Name</label>
+                </div>
+                <input type="text" placeholder="Full Name">
+                <div class="labelAligner">
+                    <label for="">Full Name</label>
+                </div>
+                <input type="text" placeholder="Phone Number">
+                <div class="labelAligner">
+                    <label for="">Full Name</label>
+                </div>
+                <input type="text" placeholder="Email Adress">
+                <div class="labelAligner">
+                    <label for="">Full Name</label>
+                </div>
+                <input type="text" placeholder="Subject">
+                <div class="labelAligner">
+                    <label for="">Full Name</label>
+                </div>
+                <div id="textAreaContainer">
+                    <textarea name="" id="" placeholder="Type Your Message Here.."></textarea>
+                </div>
+                
+                <div id="sendContainer">
+                    <button>
+                        Send
+                    </button>
+                </div>
+            </div>
         </section>
     </div>
 

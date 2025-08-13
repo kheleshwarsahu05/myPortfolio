@@ -7,6 +7,8 @@
     border-radius: 10px;
     color: white;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -14,10 +16,17 @@
 #about-logo-break img{
     width: 20px;
 }
+#aboutOneLiner{
+    font-size: 3vw;
+}
+#aboutOneLiner span{
+    color: yellow;
+}
 #about-logo-break{
     width: 101px;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 #aboutBoxContainer {
     display: grid;
@@ -33,10 +42,11 @@
     width: 42vw;
     color: white;
     height: 30vh;
-    border: 1px solid white;
+    border: 1px solid #ffffff73;
     border-radius: 10px;
     padding: 15px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    background-color: #00000075;
 }
 #aboutTxtBox h3{
     font-size: 1.8vw;
@@ -44,35 +54,42 @@
 }
 #educationBox{
     width: 20vw;
-    border: 1px solid white;
+    border: 1px solid #ffffff73;
     height: auto;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
+    background-color: #00000075;
+}
+#educationBox img{
+    width: 2vw;
 }
 #languageBox{
     width: 20vw;
-    border: 1px solid white ;
+    border: 1px solid #ffffff73;
     height: 16vh;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
+    background-color: #00000075;
 }
 #hobbiesBox{
     width: 20vw;
-    border: 1px solid white ;
+    border: 1px solid #ffffff73;
     height: auto;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
+    background-color: #00000075;
 }
 #contactInfoBox{
     width: 20vw;
-    border: 1px solid white ;
+    border: 1px solid #ffffff73;
     height: 20vh;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
+    background-color: #00000075;
 }
 #aboutBoxContainer #educationBox:hover{
     transition: 1s ease;
@@ -101,18 +118,49 @@
 #aboutTxtBox h3{
     margin-bottom: 10px;
 }
-#educationBox h3{
+#educationImg{
     font-size: 1.5vw;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-left: 15px;
+    gap: 5px;
 }
-.eBox h3{
+#educationYear{
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 19px;
     opacity: 0.6;
     margin-bottom: 5px;
 }
 .eBox p{
     font-size: 14px;
     margin-bottom: 5px;
+}
+#hobbiesImg img{
+    width: 1.5vw;
+}
+#hobbiesImg{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#contactInfoImg{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#contactInfoImg img{
+    width: 1.5vw;
+}
+#languageImg{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#languageImg img{
+    width: 1.5vw;
 }
 #languageBox h3{
     font-size: 1.5vw;
@@ -123,6 +171,9 @@
 }
 .hBox{
     margin-top: 5px;
+}
+.hBox p{
+    font-size: 14px;
 }
 .cBox p{
     margin-top: 5px;
