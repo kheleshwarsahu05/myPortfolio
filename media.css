@@ -1,0 +1,524 @@
+@media screen and (max-width: 1000px){
+    #leftContainer {
+        width: 33vw;
+        height: 77vh;
+        gap: 41px;
+    }
+    .navlinks{
+        width: 50px;
+        height: 50px;
+    }
+    .navImgContainer img{
+        width: 33px;
+    }
+    .secondary{
+        border: none;
+    }
+    #mainContainer{
+        left: 35vw;
+        width: 38vw;
+    }
+    #name #myName{
+        font-size: 20px;
+    }
+
+    #name #hi{
+        font-size: 30px;
+    }
+    h2 #JFD{
+        font-size: 30px;
+    }
+    h2 #developer{
+        font-size: 30px;
+    }
+    #paraTxt{
+        font-size: 13px;
+    }
+    #heroButtonContainer button {
+    padding: 13px 30px;
+    font-size: 13px;
+    }
+    #oneLiner{
+        font-size: 14px;
+    }
+    #mainIconsDiv{
+        width: 310px;
+        height: 110px;
+    }
+    .iconDiv{
+        width: 50px;
+        height: 50px;
+    }
+    #letterDiv{
+        gap: 50px;
+
+    }
+    #profileContainer{
+        height: 65vh;
+    }
+    #profileContainer h2{
+        font-size: 2vw;
+    }
+    #socialContainer{
+        gap: 9px;
+    }
+    #goTopButton{
+        width: 45px;
+        height: 45px;
+        right: 1vw;
+        bottom: 2vh;
+    }
+    #aboutTxtBox{
+        width: 38vw;
+    }
+    #aboutTxtBox p{
+        font-size: 1.3vw;
+    }
+    #educationImg{
+        margin-left: 0px;
+    }
+    #languageImg img {
+         width: 2vw;
+    }
+    #languageBox h3{
+        font-size: 2vw;
+    }
+    #aboutBoxContainer{
+        gap: 10px;
+    }
+    #educationBox{
+        width: 16vw;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    #hobbiesBox{
+        border: 1px solid #ffffff73;
+        width: 19vw;
+        height: auto;
+        padding: 11px;
+        box-sizing: border-box;
+        background-color: #00000075;
+        margin-left: -15px;
+        border-radius: 10px;
+    }
+    .cBox span{
+        font-size: 13px;
+    }
+    #languageBox {
+    width: 17vw;
+    padding: 10px;
+    }
+    #skillsGroupContainer{
+        gap: 20px;
+    }
+    .skillBox{
+        width: 60px;
+        height: 60px;
+    }
+    .skillBox img{
+        width: 3.4vw;
+    }
+    #frontEndContainer{
+        gap: 25px;
+    }
+    #technicalSkillsContainer h3{
+        margin-left: 6px;
+    }
+    #projectTwoOuter{
+        width: 100%;
+    }
+    .projectTwo{
+        height: 40vh;
+    }
+    #projectThreeOuter{
+        width: 100%;
+    }
+    .projectThree{
+        height: 40vh;
+    }
+    .insideSlider{
+        width: 29vw;
+    }
+    #skillOuter{
+        justify-content: center;
+        align-items: center;
+    }
+    #skillOuter span{
+        font-size: 18px;
+    }
+    #backEndContainer{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    main{
+        padding: 33px 120px;
+    }
+    #leftContainer{
+        gap: 30px;
+    }
+    #mainContainer{
+        width: 37vw;
+    }
+    .imgRound{
+        width: 25px;
+        height: 25px;
+    }
+    #name #hi{
+        font-size: 25px;
+    }
+    #name #myName{
+        font-size: 15px;
+    }
+    h2 #JFD{
+        font-size: 25px;
+    }
+    h2 #developer{
+        font-size: 25px;
+        margin-left: 1px;
+    }
+    #heroButtonContainer button {
+        padding: 10px 23px;
+        font-size: 11px;
+    }
+    #mainIconsDiv {
+        width: 286px;
+    }
+    .iconDiv {
+        width: 45px;
+        height: 45px;
+    }
+    .iconDiv img {
+        width: 28px;
+    }
+    #aboutBoxContainer {
+    grid-template-columns: repeat(1, auto);
+    }
+    #hobbiesBox{
+        margin-left: 0px;
+    }
+    #educationBox{
+        width: 36vw;
+    }
+    #hobbiesBox{
+        width: 39vw;
+    }
+    #contactInfoBox{
+        width: 39vw;
+    }
+    #languageBox{
+        width: 39vw;
+    }
+    #aboutUsContainer{
+        width: 41vw;
+    }   
+    #skillsGroupContainer{
+        flex-direction: column;
+    }
+    #technicalOuter{
+        width: 100%;
+    }
+    #technicalOuter h3 img {
+        width: 6.5vw;
+    }
+    #backEndContainer{
+        width: 19vw;
+    }
+    #softOuter{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #navigationLinks{
+        display: none;
+    }
+    #leftContainer{
+        position: static;
+        width: 95vw;
+    }
+    #mainContainer{
+        position: static;
+        width: 95vw;
+        margin-top: 40px;
+    }
+    main {
+        padding: 33px 40px;
+    }
+    #profileContainer{
+        width: 100%;
+    }
+    #aboutUsContainer{
+        width: 95vw;
+    }
+    #aboutTxtBox{
+        width: 100%;
+    }
+    #educationBox{
+        width: 100%;
+    }
+    #contactUsBox{
+        width: 100%;
+    }
+    #hobbiesBox{
+        width: 100%;
+    }
+    #contactInfoBox{
+        width: 100%;
+    }
+    #languageBox{
+        width: 100%;
+    }
+    #aboutTxtBox h3 {
+    font-size: 3.5vw;
+    }
+    #profileContainer #main-img{
+        width: 67vw;
+    }
+    #aboutTxtBox p {
+        font-size: 3.3vw;
+    }
+    #educationBox{
+        font-size: 4vw;
+    }
+    #educationBox img {
+    width: 5vw;
+    }
+    #hobbiesImg img {
+    width: 5vw;
+    }
+    #hobbiesImg {
+    font-size: 4vw;
+    }
+    #educationImg {
+        margin-left: 0px;
+        font-size: 4vw;
+    }
+    #contactInfoImg img {
+    width: 5vw;
+    }
+    #languageImg img {
+        width: 5vw;
+    }
+    #frontEndContainer {
+        padding: 20px 30px;
+        gap: 15px;
+    }
+    #languageBox h3 {
+        font-size: 4vw;
+    }
+    #aboutOneLiner {
+    font-size: 10vw;
+    }
+   #skillsContainer h2 {
+        font-size: 10vw;
+        font-weight: 800;
+    }
+    #technicalSkill {
+        font-size: 18px;
+    }
+    .skillBox {
+        width: 21.5vw;
+        height: 11vh;
+    }
+    
+    .skillBox img {
+        width: 17.4vw;
+    }
+        #backEndContainer{
+            width: 0vw;
+            margin-left: 20px;
+            align-items: center;
+            width: inherit;
+            justify-content: start;
+    }
+    #dataBaseContainer{
+        padding-left: 43px;
+    }
+    #toolsContainer {
+        padding-top: 19px;
+        box-sizing: border-box;
+    }
+    #projectsContainer{
+        padding: 0px;
+    }
+    #contactUsContainer{
+        padding: 0px;
+    }
+    #projects-logo-break img {
+    width: 5vw;
+    }
+    #sendContainer button {
+    padding: 10px 135px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size: 5vw;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    }
+    .projectOne{
+        height: 25vh;
+    }
+    .projectTwo{
+        height: 25vh;
+    }
+    .projectThree{
+        height: 25vh;
+    }
+    #projectsSlider {
+    height: 30vh;
+    gap: 16px;
+    }
+    .insideSlider {
+        width: 64vw;
+    }
+    nav {
+    width: 90%;
+    padding: 10px;
+    }
+    #profileContainer h2 {
+        font-size: 7vw;
+    }
+    #profileDesc{
+    font-family: monospace;
+    font-size: 17px;
+    }
+    .imgRound {
+        width: 43px;
+        height: 43px;
+    }
+    #socialContainer img {
+    width: 30px;
+    cursor: pointer;
+    margin-top: 3px;
+    }
+    #socialContainer {
+        gap: 12px;
+    }
+    #downloadResume {
+    padding: 10px 51px;
+    font-size: 4vw;
+    }
+    #mainContainer {
+        position: static;
+        width: 95vw;
+        margin-top: 5px;
+    }
+    #welcomeTxt{
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    #name #hi {
+        font-size: 30px;
+    }
+    #name #myName {
+        font-size: 20px;
+    }
+    #myName span {
+        font-weight: bolder;
+    }
+    h2 #developer {
+        font-size: 30px;
+        margin-left: 1px;
+    }
+    h2 #JFD {
+        font-size: 30px;
+        margin-left: 1px;
+    }
+    h2 {
+        margin-bottom: 12px;
+        margin-top: 0px;
+    }
+    #mainIconsDiv {
+        width: 257px;
+        margin-left: 20px;
+    }
+    #iconsDiv {
+        height: 52px;
+        gap: 20px;
+    }
+    #letterDiv {
+        gap: 50px;
+    }
+    main {
+        padding: 0px 10px;
+    }
+    #skillsContainer{
+        padding: 0px;
+    }
+    #heroButtonContainer button {
+        padding: 10px 23px;
+        font-size: 15px;
+    }
+    #heroTxt {
+        color: white;
+        display: flex;
+        padding-left: 15px;
+    }
+    footer {
+        color: white;
+        bottom: 0px;
+        width: 80vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        position: static;
+    }
+    #contactUs-logo-break img {
+        width: 8vw;
+    }
+    #contactUs-logo-break h3 {
+        font-size: 8vw;
+    }
+    #contactUs-logo-break {
+        margin-bottom: 15px;
+        width: 150px;
+    }
+    #contactUsContainer h2 {
+        font-size: 10vw;
+    }
+    #skills-logo-break{
+        display: flex;
+        justify-content: space-between;
+        width: 85px;
+        gap: 10px;
+        align-items: center;
+    }
+    #skills-logo-break{
+        font-size: 5vw;
+    }
+    #skills-logo-break h3{
+        font-size: 5vw;
+    }
+    #projectsContainer h2 {
+        font-size: 10vw;
+    }
+    #projectsContainer h3 {
+        font-size: 5vw;
+    }
+    #skills-logo-break{
+        font-size: 10vw;
+    }
+    #skills-logo-break img {
+        width: 8vw;
+    }
+    #skills-logo-break img {
+        width: 8vw;
+    }
+    #about-logo-break {
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    #oneLiner{
+        text-decoration: overline;
+        margin-top: 10px;
+    }
+
+}

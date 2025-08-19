@@ -18,7 +18,11 @@
 }
 #aboutOneLiner{
     font-size: 3vw;
+    opacity: 0;
+    transform: translateX(80px);
+    transition: 0.5s ease;
 }
+
 #aboutOneLiner span{
     color: yellow;
 }
@@ -27,6 +31,9 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    opacity: 0;
+    transform: translateX(80px);
+    transition: all 0.8s ease;
 }
 #aboutBoxContainer {
     display: grid;
@@ -41,7 +48,7 @@
 #aboutTxtBox{
     width: 42vw;
     color: white;
-    height: 30vh;
+    height: auto;
     border: 1px solid #ffffff73;
     border-radius: 10px;
     padding: 15px;
@@ -67,7 +74,7 @@
 #languageBox{
     width: 20vw;
     border: 1px solid #ffffff73;
-    height: 16vh;
+    height: auto;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
@@ -85,7 +92,7 @@
 #contactInfoBox{
     width: 20vw;
     border: 1px solid #ffffff73;
-    height: 20vh;
+    height: auto;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;

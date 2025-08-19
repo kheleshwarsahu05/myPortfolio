@@ -1,0 +1,22 @@
+ #profileBottomTxt {
+    font: 700 clamp(20px,1.5vw,40px)/1.2 ui-monospace, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .12em solid currentColor;
+
+    /* total = typing(4s) + wait(3s) + erase(4s) + wait(3s) = 14s */
+    animation: typing 6s steps(15) infinite,
+               blink 0.7s steps(1) infinite;
+  }
+
+  @keyframes typing {
+    0%   { width: 0ch; }       /* start empty */
+    30%  { width: 15ch; }      /* typing (≈4s) */
+    50%  { width: 15ch; }      /* wait full text (≈3s) */
+    80%  { width: 0ch; }       /* erasing (≈4s) */
+    100% { width: 0ch; }       /* wait empty (≈3s) */
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }

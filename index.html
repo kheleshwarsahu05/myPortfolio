@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="skillsContainer.css">
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="contactUs.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="Typing.css">
 </head>
 <body id="body">
     <header>
@@ -42,11 +45,6 @@
     </header>
 
     <main>
-    <a href="#">
-        <div id="goTopButton">
-            <img src="assets/top-arrow.png" alt="">
-        </div>
-    </a>
     <!-- <div id="homePage"> -->
     <div id="leftContainer">
             <div id="navigationLinks">
@@ -153,48 +151,45 @@
 
             <div id="profileContainer">
                 <div id="profileImgYellow">
-                    <img src="assets/fire.png" alt="">
+                    <img id="main-img" src="assets/fire.png" alt="">
                 </div>
-            <h2 id="profileBottomTxt">Kheleshwar Sahu</h2>
+            <h2 id="profileBottomTxt" class="typewriter">Kheleshwar Sahu</h2>
            
             <span id="profileDesc">I’m an aspiring full stack developer skilled in Java, Spring Boot, React, and more. Passionate about building impactful digital products.</span>
 
             <div id="socialContainer">
 
                 <div class="imgRound">
-                    <a href="">
+                    <a href="https://www.instagram.com/">
 
                         <img src="assets/instagram (1).png" alt="instagrame">
                     </a>
                 </div>
                 <div class="imgRound">
-                    <a href="">
-                        
+                    <a href="https://www.facebook.com/">
                         <img src="assets/facebook.png  " alt="instagrame">
                     </a>
                 </div>
                 <div class="imgRound">
-                    <a href="">
+                    <a href="https://x.com/">
                         
                         <img src="assets/twitter.png" alt="instagrame">
                     </a>
                 </div>
                 <div class="imgRound">
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/kheleshwar-sahu-b5788336a/">
                         
                         <img src="assets/linkedin.png" alt="instagrame">
                     </a>
                 </div>
             </div>
             
-            <a href="">
-                <button id="downloadResume">
+            <a href="Kheleshwar Resume.pdf" download>
+                <button id="downloadResume" >
                     DOWNLOAD RESUME
                 </button>
             </a>
-            
-            
-            
+
         </div>
         
     </div>
@@ -203,10 +198,12 @@
         <section id="heroContainer">
 
             <div id="heroTxt">
-                <span>WELCOME TO MY WORLD</span><br>
+                <span id="welcomeTxt">WELCOME TO MY WORLD</span><br>
                 <span id="name">
                     <span id="hi">Hi,</span>
-                    <span id="myName">i'am Kheleshwar Sahu</span>
+                    <span id="myName">I'am 
+                        <span>Kheleshwar Sahu</span>
+                    </span>
                 </span>
                 <h2>
                     <span id="JFD">JAVA FULL STACK</span>
@@ -325,12 +322,13 @@
                 </h3>
             </div>
 
-            <h2>
+            <h2 id="skillsHeading">
                 The <span>Skills</span> That Define Me
             </h2>
 
 
             <div id="skillsGroupContainer">
+
                 <div id="technicalOuter">
                     <span id="technicalSkill">Technical Skills</span>
                     <div id="technicalSkillsContainer">
@@ -423,20 +421,20 @@
                     <span id="technicalSkill">Soft Skills</span>
                     <div id="softSkillsContainer">
                         <div class="softskills">
-                            <h4>Problem Solving</h4>
+                            <h4><span>Problem Solving</span> <span>70%</span></h4>
                             <progress max="100" value="70">70%</progress>
                         </div>
                         <div class="softskills">
-                            <h4>Team Collaboration</h4>
-                            <progress max="100" value="70">70%</progress>
+                            <h4><span>Team Collaboration</span> <span>50%</span></h4>
+                            <progress max="100" value="50">50%</progress>
                         </div>
                         <div class="softskills">
-                            <h4>Communication Skill</h4>
-                            <progress max="100" value="70">70%</progress>
+                            <h4><span>Communication Skills</span> <span>75%</span></h4>
+                            <progress max="100" value="75">75%</progress>
                         </div>
                         <div class="softskills">
-                            <h4>Time Management</h4>
-                            <progress max="100" value="70">70%</progress>
+                            <h4><span>Time Management</span> <span>80%</span></h4>
+                            <progress max="100" value="80">80%</progress>
                         </div>
                     </div>
 
@@ -467,14 +465,14 @@
 
         <section id="projectsContainer">
 
-            <div id="skills-logo-break">
-                <img src="assets/skills-section - Copy.png" alt="">
+            <div id="projects-logo-break">
+                <img src="assets/projects-skill - Copy.png" alt="">
                 <h3>
                     Projects
                 </h3>
             </div>
 
-            <h2>
+            <h2 id="projectsHeading">
                 Where Code Meets <span>Creativity</span>
             </h2>
 
@@ -538,12 +536,12 @@
 
         <section id="contactUsContainer">
              <div id="contactUs-logo-break">
-                <img src="assets/skills-section - Copy.png" alt="">
+                <img src="assets/contact-skill - Copy.png" alt="">
                 <h3>
                     Contact
                 </h3>
             </div>
-            <h2>
+            <h2 id="contactHeading">
                 Let's Get in <span>Touch</span>
             </h2>
 
@@ -578,10 +576,15 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <h4>All Rights Reserved &copy; By Kheleshwar</h4>
+        </footer>
     </div>
+
 
     <!-- </diV> -->
     </main>
 </body>
 <script src="index.js"></script>
+<script src="animations.js"></script>
 </html>

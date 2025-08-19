@@ -1,0 +1,73 @@
+#aboutBoxContainer > div {
+  opacity: 0;
+  transform: translateX(80px); 
+  transition: all 1s ease;
+}
+
+#aboutBoxContainer > div.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.aboutTxtShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+    color: white !important;
+    z-index: 1 !important;
+}
+.oneLinerShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+.skillsTxtShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+.technicalShow{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+.skillsHShow{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+.softOuterShow{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+.skillsTxtShow01{
+    opacity: 0;
+    transition: 0.3s;
+    transform: translateY(-80px);
+}
+.skillsHShow01{
+    opacity: 0 !important;
+}
+.projectsTxtShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+.projectsHeadingShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+#projectsOuter div.projectsOuterShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+.projectsSliderShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+.contactTxtShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+.contactHeadingShow{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+.formContainerShow{
+    opacity: 1 !important;
+    scale: 1 !important;
+}

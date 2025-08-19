@@ -7,6 +7,13 @@ body{
     height: 150vh;
     background-attachment: fixed;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -27,6 +34,7 @@ html{
     cursor: pointer;
 }
 #dark-mode {
+    position: relative;
     font-weight: bold;
     display: flex;
     background-color: rgb(30 30 39);
@@ -77,9 +85,9 @@ li{
     margin: 5px;
     cursor: pointer;
 }
-li:hover{
+/* li:hover{
     color:rgb(192, 4, 192);
-}
+} */
 ul{
     display: flex;
     justify-content: center;
@@ -163,6 +171,11 @@ main {
     position: fixed;
     gap: 15px;
 }
+#navAncer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     width: 70vw;
     height: 100vh;
@@ -207,11 +220,13 @@ footer{
     gap: 10px;
 }
 .navlinks{
-    width: 60px;
-    height: 60px;
+    width: 68px;
+    height: 68px;
     border: 1px solid white;
     gap: 10px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-bottom: 10px;
     border-radius: 7px;
@@ -233,7 +248,7 @@ footer{
     justify-content: center;
 }
 .navImgContainer img{
-    width: 40px;
+    width: 45px;
 }
 .secondary{
     position: absolute;
@@ -255,7 +270,7 @@ footer{
     color: black;
 }
 #navAncer:hover + .secondary{
-    margin-left: 65px;
+    margin-left: 210px;
     border-radius: 5px;
     width: 130px;
     z-index: 1;
@@ -303,11 +318,14 @@ p{
 #goTopButton img{
     width: 2.2vw;
 }
-
-@media screen and (max-width:480px){
-    nav{
-        flex-direction: column;
-        height: 110px;
-    }
+footer {
+    color: white;
+    bottom: 0px;
+    width: inherit;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
 }
 

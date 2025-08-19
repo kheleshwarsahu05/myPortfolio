@@ -11,14 +11,25 @@
     display: flex;
     justify-content: space-between;
     width: 70px;
+    opacity: 0;
+    transform: translateY(80px);
+    transition: 1s ease;
 }
+
 #skills-logo-break img{
     width: 20px;
+    color: white;
 }
 #skillsContainer h2{
     font-size: 3vw;
     font-weight: 800;
 }
+#skillsHeading{
+    opacity: 0;
+    transform: translateY(80px);
+    transition: 1s ease;
+}
+
 #skillsContainer h2 span{
     color: yellow;
 }
@@ -39,6 +50,10 @@
 #technicalOuter{
     width: 50%; 
     margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(130px);
+    transition: 1.3s ;
+    height: auto;
 }
 #technicalOuter h3 img{
     width: 1.5vw;
@@ -124,6 +139,9 @@
 /* Soft Skills */
 #softOuter{
     width: 40%; 
+    opacity: 0;
+    transform: translateY(130px);
+    transition: 1.3s ease;
 }
 #softSkillsContainer{
     width: 100%;
@@ -148,7 +166,11 @@
 progress::-webkit-progress-value{
     background-color: #ff5733;
 }
-
+.softskills h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Tolls Container */
 #toolsContainer{
     width: 100;

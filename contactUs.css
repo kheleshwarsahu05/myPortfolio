@@ -10,6 +10,9 @@
     align-items: center;
     gap: 10px;
     width: 100px;
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(80px);
 }
 #contactUs-logo-break img{
     width: 2vw;
@@ -19,6 +22,11 @@
 }
 #contactUsContainer h2 span{
     color: yellow;
+}
+#contactHeading{
+    opacity: 0;
+    transform: translateX(80px);
+    transition: 1s;
 }
 #formContainer{
     width: inherit;
@@ -30,6 +38,9 @@
     align-items: center;
     flex-direction: column;
     padding: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    scale: 0.9;
 }
 .labelAligner{
     width: 100%;
