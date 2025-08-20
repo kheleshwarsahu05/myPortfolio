@@ -32,21 +32,27 @@ const observer = new IntersectionObserver(entries => {
 
       }else if(entry.target.id === "projects-logo-break"){
         entry.target.classList.add("projectsTxtShow");
+
       }else if(entry.target.id === "projectsHeading"){
         entry.target.classList.add("projectsHeadingShow");
+
       }else if(entry.target.parentElement?.id === "projectsOuter"){
         entry.target.classList.add("projectsOuterShow");
+
       }else if(entry.target.id === "projectsSlider"){
         entry.target.classList.add("projectsSliderShow");
+
       }else if(entry.target.id === "contactUs-logo-break"){
         entry.target.classList.add("contactTxtShow");
+
       }else if(entry.target.id === "contactHeading"){
         entry.target.classList.add("contactHeadingShow");
+
       }else if(entry.target.id === "formContainer"){
         entry.target.classList.add("formContainerShow");
       }
       else {
-        entry.target.classList.add("show");
+          entry.target.classList.add("show");
       }
     } else {
       entry.target.classList.remove(
@@ -61,7 +67,8 @@ const observer = new IntersectionObserver(entries => {
         "projectsSliderShow",
         "contactTxtShow",
         "contactHeadingShow",
-        "formContainerShow"
+        "formContainerShow",
+        "n2Select"
       );
       if(entry.target.id === "skills-logo-break"){
         entry.target.classList.add("skillsTextShow01");

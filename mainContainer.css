@@ -2,6 +2,7 @@
     color: white;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 #name #hi{
     font-size: 40px; 
@@ -123,7 +124,7 @@ h2 #developer{
 }
 
 #profileImgYellow {
-    max-width: 18vw;
+    max-width: 22vw;
     max-height: 400px;
     display: flex;
     justify-content: center;
@@ -136,4 +137,5 @@ h2 #developer{
     margin-left: 0px;
     margin-top: 0px;
     border-radius: 7px;
+    width: 22vw;
 }
